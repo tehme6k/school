@@ -27,14 +27,28 @@
             <li class="treeview">
                 <a href="#">
                     <i data-feather="message-circle"></i>
-                    <span>Application</span>
+                    <span>Manage User</span>
                     <span class="pull-right-container">
               <i class="fa fa-angle-right pull-right"></i>
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="chat.html"><i class="ti-more"></i>Chat</a></li>
-                    <li><a href="calendar.html"><i class="ti-more"></i>Calendar</a></li>
+                    <li><a href="{{route('user.view')}}"><i class="ti-more"></i>View User</a></li>
+                    <li><a href="calendar.html"><i class="ti-more"></i>Add User</a></li>
+                </ul>
+            </li>
+
+            <li class="treeview">
+                <a href="#">
+                    <i data-feather="mail"></i> <span>Mailbox</span>
+                    <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="mailbox_inbox.html"><i class="ti-more"></i>Inbox</a></li>
+                    <li><a href="mailbox_compose.html"><i class="ti-more"></i>Compose</a></li>
+                    <li><a href="mailbox_read_mail.html"><i class="ti-more"></i>Read</a></li>
                 </ul>
             </li>
 
